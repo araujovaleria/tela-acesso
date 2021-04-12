@@ -1,0 +1,124 @@
+@font-face{
+  font-family: Graphit, Helvetica, Arial, serif;
+  src: url("../Fontes/Grafic/HVD\ Fonts\ -\ Graphit\ Regular.otf");
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0.0;
+  }
+  .container-form.bkg{
+    background-image: url(../img/bg4-sm.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 1em;
+    height: 100vh;
+    min-height: 30em;
+    position: relative;
+  } 
+
+  .form-login
+  {
+    font-family: Graphit, Helvetica, Arial, serif;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    border-radius: 1em;
+    width: 90%;
+    max-width: 22em;
+    min-width: 230px;
+    font-size: 18px;
+    padding-bottom: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+    box-shadow: 0 0 1em rgba(0,0,0,.1);
+  }
+  .form-login .head-title
+  {
+    border-radius: 1em 1em 0 0;
+    padding: 1.4em 1em;
+    font-weight: 300;
+  }
+  .form-login .logo
+  {
+    height: 3.5em;
+    width: auto;
+  }
+  .form-login .title
+  {
+    color: #fff;
+    font-weight: 400;
+    padding: 0.4em 1em;
+    text-transform: uppercase;
+  }  
+  .form-login .btn
+  {  
+    text-transform: uppercase;
+  }
+
+  .form-login .input-container,
+  .submit.btn
+  {
+    width: 80%;
+  }
+  .form-login .btn
+  {
+    margin-top: 0.8em;
+    padding: 0.4em 1em;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #000;
+    box-shadow: inset 0 -0.1em 0 rgba(0,0,0,.5);
+    font-family: Graphit, Helvetica, Arial, serif;
+    transition: all ease .5s;
+  }
+
+  .intelimidia .form-login .logo{
+    margin: auto;
+    max-width: 12em;
+    height: auto;
+  }
+  .intelimidia .form-login .btn{
+    background-color: #DEBE00;
+    background-image: linear-gradient(to right,  #F4DA40, #F4DA40 100%);
+    box-shadow: inset 0 -0.1em 0 rgba(0,0,0,.2);
+  }
+  .intelimidia .form-login .btn1{
+    background: #6c6c6c;
+    background-image: linear-gradient(to right, #dcdcdc 0%, #dcdcdc 100%);
+    box-shadow: inset 0 -0.1em 0 rgba(0,0,0,.2);
+  }
+
+  @media (max-width: 480px) {
+    .intelimidia .form-login .logo.intelimidia{
+      width: 100%;
+    }
+    .form-login .select-container {
+      width: 80%;
+    }
+  }
+  @media (min-width: 1200px)
+  {
+    .form-login
+    {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 1600px)
+  {
+    .form-login
+    {
+      font-size: 22px;
+    }
+  }
+  @media (min-width: 2400px)
+  {
+    .form-login
+    {
+      font-size: 24px;
+    }
+  }
